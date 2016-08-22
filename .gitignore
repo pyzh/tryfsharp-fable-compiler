@@ -1,0 +1,5 @@
+fable-compiler
+.paket/paket.exe
+.fake
+packages
+paket-files
