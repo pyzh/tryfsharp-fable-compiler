@@ -13,7 +13,7 @@ if errorlevel 1 (
 )
 
 if not exist fable-compiler\build\fable\bin\Fable.Client.Suave.exe (
-  git clone -b cors https://github.com/tryfsharp/fable-compiler.git 
+  git clone -b suave https://github.com/tryfsharp/fable-compiler.git 
   cd fable-compiler
   call build.cmd FableSuaveRelease
   cd ..
