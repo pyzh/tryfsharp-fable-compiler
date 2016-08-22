@@ -4,9 +4,9 @@ NUGET
     FAKE (4.38.1)
 GIT
   remote: https://github.com/tryfsharp/fable-compiler.git
-     (8ff4cca710f6ee73863a745a52740e259a162293)
+     (2ad9a78c4f9a209157c94e75afa19bdb200fb3bd)
       build: build.cmd FableSuaveRelease
       os: windows
-     (8ff4cca710f6ee73863a745a52740e259a162293)
+     (2ad9a78c4f9a209157c94e75afa19bdb200fb3bd)
       build: build.sh FableSuaveRelease
       os: mono
