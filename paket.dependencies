@@ -1,3 +1,6 @@
 framework: >= net40
 source https://nuget.org/api/v2
 nuget FAKE
+
+git https://github.com/tryfsharp/fable-compiler.git suave build: "build.cmd FableSuaveRelease", OS: windows
+git https://github.com/tryfsharp/fable-compiler.git suave build: "build.sh FableSuaveRelease", OS: mono

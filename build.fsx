@@ -9,7 +9,7 @@ open System.IO
 open FSharp.Data
 
 let localPort = 7102
-let release = "fable-compiler/build/fable/bin"
+let release = "paket-files/github.com/tryfsharp/fable-compiler/build/fable/bin"
 System.Environment.CurrentDirectory <- __SOURCE_DIRECTORY__
 
 // --------------------------------------------------------------------------------------

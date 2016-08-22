@@ -12,11 +12,4 @@ if errorlevel 1 (
   exit /b %errorlevel%
 )
 
-if not exist fable-compiler\build\fable\bin\Fable.Client.Suave.exe (
-  git clone -b suave https://github.com/tryfsharp/fable-compiler.git 
-  cd fable-compiler
-  call build.cmd FableSuaveRelease
-  cd ..
-)
-
 packages\FAKE\tools\FAKE.exe %* --fsiargs build.fsx
